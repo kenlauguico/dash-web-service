@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashes",
+  "info": {
+    "name": "dash"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "collection": "link",
+      "via": "dashes",
+      "dominant": true
+    },
+    "users": {
+      "via": "dashes",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}
