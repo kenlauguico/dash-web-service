@@ -450,7 +450,7 @@
         ]
       }
     },
-    "/dash": {
+    "/dash/new": {
       "post": {
         "deprecated": false,
         "description": "Create a new dash record",
@@ -514,9 +514,9 @@
       }
     },
     "/dash/start": {
-      "get": {
+      "post": {
         "deprecated": false,
-        "description": "",
+        "description": "Create a new dash record",
         "responses": {
           "200": {
             "description": "Retrieve dash document(s)",
@@ -563,7 +563,17 @@
         "tags": [
           "Dash"
         ],
-        "parameters": []
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewDash"
+              }
+            }
+          }
+        }
       }
     }
   },

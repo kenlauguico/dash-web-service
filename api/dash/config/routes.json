@@ -26,14 +26,14 @@
     },
     {
       "method": "POST",
-      "path": "/dash",
+      "path": "/dash/new",
       "handler": "dash.create",
       "config": {
         "policies": []
       }
     },
     {
-      "method": "GET",
+      "method": "POST",
       "path": "/dash/start",
       "handler": "dash.create",
       "config": {
