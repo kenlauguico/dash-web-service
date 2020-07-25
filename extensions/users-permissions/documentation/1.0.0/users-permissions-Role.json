@@ -608,12 +608,6 @@
                 },
                 "role": {
                   "type": "string"
-                },
-                "dashes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
                 }
               }
             }

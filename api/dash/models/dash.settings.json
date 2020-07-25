@@ -17,10 +17,9 @@
       "via": "dashes",
       "dominant": true
     },
-    "users": {
+    "acct": {
       "via": "dashes",
-      "plugin": "users-permissions",
-      "collection": "user"
+      "collection": "u"
     }
   }
 }

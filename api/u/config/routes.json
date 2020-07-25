@@ -2,56 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/dashes",
-      "handler": "dash.find",
+      "path": "/u",
+      "handler": "u.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/dashes/count",
-      "handler": "dash.count",
+      "path": "/u/count",
+      "handler": "u.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/dash/:id",
-      "handler": "dash.findOne",
+      "path": "/u/:id",
+      "handler": "u.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/dash/add",
-      "handler": "dash.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/dash/start",
-      "handler": "dash.create",
+      "path": "/u",
+      "handler": "u.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/dash/edit/:id",
-      "handler": "dash.update",
+      "path": "/u/:id",
+      "handler": "u.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/dashes/:id",
-      "handler": "dash.delete",
+      "path": "/u/:id",
+      "handler": "u.delete",
       "config": {
         "policies": []
       }

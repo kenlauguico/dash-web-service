@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/links",
+      "path": "/link/add",
       "handler": "link.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/links/:id",
+      "path": "/link/edit/:id",
       "handler": "link.update",
       "config": {
         "policies": []

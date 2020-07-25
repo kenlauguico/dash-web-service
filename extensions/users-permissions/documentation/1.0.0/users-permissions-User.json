@@ -1244,34 +1244,6 @@
                 }
               }
             }
-          },
-          "dashes": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "links": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "users": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
           }
         }
       },
@@ -1309,12 +1281,6 @@
           },
           "role": {
             "type": "string"
-          },
-          "dashes": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
           }
         }
       }

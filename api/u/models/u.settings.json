@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "us",
+  "info": {
+    "name": "u"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "links": {
+      "collection": "link"
+    },
+    "deviceKey": {
+      "type": "uid"
+    },
+    "dashes": {
+      "collection": "dash",
+      "via": "acct",
+      "dominant": true
+    }
+  }
+}
